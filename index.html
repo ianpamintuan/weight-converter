@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">    
+    <title>Weight Converter App</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <h1 class="display-3 text-center">Weight Converter</h1>
+
+            </div>
+
+            <div class="col-md-6 col-md-offset-3">
+
+                <form>
+                            
+                    <div class="form-group">
+                        <input type="number" id="amount" name="amount" placeholder="Enter an amount" class="form-control">
+                        <select name="measurements" id="measurements" class="form-control">
+                            <option value="Grams">Grams</option>
+                            <option value="Kilograms">Kilograms</option>
+                            <option value="Pounds">Pounds</option>
+                            <option value="Ounces">Ounces</option>
+                        </select>
+                    </div>
+                            
+                </form>
+
+                <div class="row">
+
+                    <div class="col-md-12">
+                        
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Grams</h3>
+                            </div>
+                            <div class="panel-body">
+                                <span id="grams">0</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="panel panel-warning">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Kilograms</h3>
+                            </div>
+                            <div class="panel-body">
+                                <span id="kgs">0</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Pounds</h3>
+                            </div>
+                            <div class="panel-body">
+                                <span id="lbs">0</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Ounces</h3>
+                            </div>
+                            <div class="panel-body">
+                                <span id="oz">0</span>
+                            </div>
+                        </div>
+                    
+                    </div>    
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+
+            <div class="col-md-12">
+                <p class="text-3 text-center">Made by <a href="https://github.com/ianpamintuan">Mark Ian Pamintuan</a></p>
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

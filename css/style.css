@@ -1,0 +1,28 @@
+body {
+    background-color: #2c3e50;
+}
+
+.container h1 {
+    margin: 1em 0;
+}
+
+.container h1, footer p {
+    color: #fff;
+}
+
+#amount {
+    margin: 10px 0;
+}
+
+#measurements {
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none !important;
+    color: #e74c3c;
+}
+
+footer a:hover {
+    color: #c0392b;
+}
